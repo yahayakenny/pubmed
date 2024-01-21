@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "pubmed"
+version = "0.1.0"
+description = ""
+authors = ["yahayakenny <y.hkehinde@yahoo.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+biopython = "^1.83"
+langchain = "^0.1.1"
+python-dotenv = "^1.0.0"
+langchain-community = "^0.0.13"
+faiss-cpu = "^1.7.4"
+langchain-openai = "^0.0.3"
+tiktoken = "^0.5.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
